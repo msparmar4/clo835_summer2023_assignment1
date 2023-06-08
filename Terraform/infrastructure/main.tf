@@ -32,7 +32,7 @@ locals {
   prefix_main  = "${local.prefix}-${var.env}"
 }
 module "globalvars" {
-  source = "/home/ec2-user/environment/Terraform/modules/globalvars"
+  source = "/home/ec2-user/environment/clo835_summer2023_assignment1/Terraform/modules/globalvars"
 }
 
 #Assignment1-Clo835-dev
